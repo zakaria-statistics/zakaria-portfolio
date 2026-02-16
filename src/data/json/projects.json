@@ -1,0 +1,44 @@
+[
+  {
+    "name": "azure-kube-infra",
+    "description": "Self-managed Kubernetes platform on Azure with Terraform",
+    "tech": ["Kubernetes", "Terraform", "Azure", "Vault", "Ansible"],
+    "details": "Provisioned a production-grade self-managed Kubernetes cluster on Azure with network segmentation, HashiCorp Vault for secrets management, and Ansible for node configuration. Fully reproducible infrastructure as code.",
+    "link": "https://github.com/zakaria-statistics/azure-kube-infra"
+  },
+  {
+    "name": "docai",
+    "description": "AI-powered document processing CLI with RAG, chat, and API",
+    "tech": ["Python", "LangChain", "ChromaDB", "Ollama"],
+    "details": "Built an AI-powered document processing tool featuring Retrieval-Augmented Generation (RAG), interactive chat, and a REST API. Supports multiple document formats with local LLM inference via Ollama.",
+    "link": "https://github.com/zakaria-statistics/docai"
+  },
+  {
+    "name": "proxmox-infrastructure",
+    "description": "Proxmox homelab IaC with Terraform and automation scripts",
+    "tech": ["Proxmox", "Terraform", "Shell", "HCL"],
+    "details": "Infrastructure as Code for a Proxmox-based homelab environment. Automates VM provisioning, network configuration, and cluster management using Terraform and custom shell scripts.",
+    "link": "https://github.com/zakaria-statistics/proxmox-infrastructure"
+  },
+  {
+    "name": "llm-terra-azure",
+    "description": "GPU-enabled LLM infrastructure deployment on Azure",
+    "tech": ["Terraform", "Azure", "Ollama", "Docker", "Shell"],
+    "details": "Automated deployment of GPU-enabled infrastructure on Azure for running large language models with Ollama. Includes Terraform modules for VM provisioning, networking, and Docker-based LLM serving.",
+    "link": "https://github.com/zakaria-statistics/llm-terra-azure"
+  },
+  {
+    "name": "python-automation-scripts",
+    "description": "Collection of Python scripts for DevOps automation tasks",
+    "tech": ["Python", "Bash", "Automation"],
+    "details": "A collection of Python automation scripts for common DevOps tasks including monitoring, reporting, security analysis, and infrastructure management.",
+    "link": "https://github.com/zakaria-statistics/python-automation-scripts"
+  },
+  {
+    "name": "infra-ia.com",
+    "description": "Personal DevOps & Cloud blog — tutorials and architecture patterns",
+    "tech": ["Next.js", "TypeScript", "Tailwind", "Vercel"],
+    "details": "Technical blog covering DevOps practices, cloud architecture patterns, Kubernetes tutorials, and AI/LLM infrastructure guides. Built with Next.js and deployed on Vercel.",
+    "link": "https://infra-ia.com"
+  }
+]

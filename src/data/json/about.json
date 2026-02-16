@@ -1,0 +1,15 @@
+{
+  "introParagraphs": [
+    "I'm a <span class=\"text-green\">Cloud DevOps Engineer</span> passionate about automation, orchestration, and continuous integration. I specialize in building resilient infrastructure and streamlining deployment pipelines across cloud environments.",
+    "My journey started with a background in <span class=\"text-cyan\">Mathematics & Statistics</span>, then evolved into <span class=\"text-cyan\">Big Data & Cloud Computing</span>. Today I work with <span class=\"text-cyan\">Infrastructure as Code</span>, <span class=\"text-cyan\">GitOps workflows</span>, and <span class=\"text-cyan\">LLMOps</span> to build and operate production-grade platforms."
+  ],
+  "whatIDo": [
+    { "text": "Deploy & manage <span class=\"text-blue\">Kubernetes clusters</span> on Azure and AWS — from self-managed to AKS/EKS" },
+    { "text": "Build <span class=\"text-blue\">CI/CD pipelines</span> with GitLab CI/CD, GitHub Actions, and Jenkins" },
+    { "text": "Implement <span class=\"text-blue\">Infrastructure as Code</span> with Terraform, Ansible, and Vagrant" },
+    { "text": "Set up <span class=\"text-blue\">observability stacks</span> — monitoring, logging, alerting, tracing" },
+    { "text": "Explore <span class=\"text-blue\">LLMOps & AI infrastructure</span> — deploying LLMs with Ollama, LangChain, and RAG pipelines" }
+  ],
+  "footnote": "When I'm not deploying to prod, you'll find me experimenting with AI/LLM infrastructure, automating everything in sight, or sharing what I learn at",
+  "footnoteLink": { "text": "infra-ia.com", "url": "https://infra-ia.com" }
+}

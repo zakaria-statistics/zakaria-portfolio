@@ -1,0 +1,23 @@
+{
+  "lines": [
+    { "text": "BIOS 1.0.0 — Zakaria Portfolio System", "delay": 0, "color": "text-text-dim" },
+    { "text": "Checking hardware...", "delay": 200, "color": "text-text-dim" },
+    { "text": "[  OK  ] CPU: DevOps Engine v4.2", "delay": 400, "color": "text-green" },
+    { "text": "[  OK  ] RAM: 128GB Cloud Memory", "delay": 550, "color": "text-green" },
+    { "text": "[  OK  ] DISK: /dev/skills mounted", "delay": 700, "color": "text-green" },
+    { "text": "[  OK  ] NET: infra-ia.com reachable", "delay": 850, "color": "text-green" },
+    { "text": "", "delay": 950, "color": "" },
+    { "text": "Loading kernel modules...", "delay": 1000, "color": "text-text-dim" },
+    { "text": "[  OK  ] kubernetes.ko", "delay": 1150, "color": "text-cyan" },
+    { "text": "[  OK  ] terraform.ko", "delay": 1250, "color": "text-cyan" },
+    { "text": "[  OK  ] docker.ko", "delay": 1350, "color": "text-cyan" },
+    { "text": "[  OK  ] github-actions.ko", "delay": 1450, "color": "text-cyan" },
+    { "text": "", "delay": 1500, "color": "" },
+    { "text": "Starting services...", "delay": 1550, "color": "text-text-dim" },
+    { "text": "[  OK  ] portfolio.service — active", "delay": 1750, "color": "text-yellow" },
+    { "text": "[  OK  ] nginx reverse proxy — listening", "delay": 1900, "color": "text-yellow" },
+    { "text": "", "delay": 2000, "color": "" },
+    { "text": "System ready. Welcome, visitor.", "delay": 2100, "color": "text-green" }
+  ],
+  "totalDuration": 2800
+}

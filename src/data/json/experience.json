@@ -1,0 +1,26 @@
+[
+  {
+    "date": "2024 — Present",
+    "role": "Cloud DevOps Engineer",
+    "company": "We Are Beebay",
+    "description": [
+      "Built self-managed Kubernetes platform on Azure with network segmentation, Terraform, Vault, and Ansible",
+      "Designed CI/CD pipelines with GitLab CI/CD for Spring Boot and Next.js apps using Docker Compose",
+      "Automated Azure backup & recovery — snapshots, PITR, and automated testing",
+      "Developed Python automation for security report aggregation (SpotBugs, PMD, Checkstyle, Gitleaks) with LLM API integration",
+      "Provisioned modular Azure infrastructure with reusable Terraform modules"
+    ],
+    "tech": ["Kubernetes", "Azure", "Terraform", "GitLab CI/CD", "Vault", "Python"]
+  },
+  {
+    "date": "2024",
+    "role": "End-of-Studies Internship — Cloud DevOps",
+    "company": "We Are Beebay",
+    "description": [
+      "Designed and built an E-commerce SaaS platform as capstone project",
+      "Implemented cloud infrastructure provisioning and deployment pipelines",
+      "Worked with containerization and orchestration for application delivery"
+    ],
+    "tech": ["Docker", "Azure", "Terraform", "Spring Boot", "Angular"]
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "name": "Zakaria",
+  "fullName": "Zakaria EL MOUMNAOUI",
+  "role": "Cloud DevOps Engineer",
+  "location": "Casablanca, Morocco / Remote",
+  "focus": "Kubernetes, Terraform, GitLab CI/CD, LLMOps",
+  "status": "Open to opportunities",
+  "email": "zakariaelmoumnaoui96@gmail.com",
+  "website": "https://infra-ia.com",
+  "socials": [
+    {
+      "platform": "github",
+      "label": "@zakaria-statistics",
+      "url": "https://github.com/zakaria-statistics",
+      "icon": "github"
+    },
+    {
+      "platform": "linkedin",
+      "label": "/in/zakariaelmoumnaoui",
+      "url": "https://linkedin.com/in/zakariaelmoumnaoui",
+      "icon": "linkedin"
+    },
+    {
+      "platform": "email",
+      "label": "zakariaelmoumnaoui96@gmail.com",
+      "url": "mailto:zakariaelmoumnaoui96@gmail.com",
+      "icon": "email"
+    }
+  ]
+}

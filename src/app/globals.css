@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+@theme {
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, "SF Mono",
+    Menlo, Consolas, "Liberation Mono", monospace;
+
+  --color-bg: #0a0e14;
+  --color-surface: #111820;
+  --color-surface-light: #1a2230;
+  --color-border: #1e2d3d;
+  --color-text: #c5c8c6;
+  --color-text-dim: #6b7280;
+  --color-green: #4ec9b0;
+  --color-blue: #569cd6;
+  --color-yellow: #dcdcaa;
+  --color-orange: #ce9178;
+  --color-purple: #c586c0;
+  --color-red: #f44747;
+  --color-cyan: #9cdcfe;
+}
+
+@layer base {
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-border) transparent;
+  }
+
+  ::selection {
+    background: var(--color-green);
+    color: var(--color-bg);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 4rem;
+  }
+
+  body {
+    font-family: var(--font-mono);
+    background: var(--color-bg);
+    color: var(--color-text);
+    overflow-x: hidden;
+  }
+
+  /* Subtle CRT scanline overlay */
+  body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 9999;
+    background: repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      rgba(0, 0, 0, 0.03) 2px,
+      rgba(0, 0, 0, 0.03) 4px
+    );
+  }
+}
+
+@layer utilities {
+  .terminal-glow {
+    box-shadow: 0 0 30px rgba(78, 201, 176, 0.08),
+      0 0 60px rgba(78, 201, 176, 0.04);
+  }
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.cursor-blink {
+  animation: blink 1s step-end infinite;
+}
+
+/* Glow pulse for active elements */
+@keyframes glow-pulse {
+  0%,
+  100% {
+    box-shadow: 0 0 5px rgba(78, 201, 176, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(78, 201, 176, 0.4);
+  }
+}

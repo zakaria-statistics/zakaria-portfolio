@@ -1,0 +1,52 @@
+{
+  "degrees": [
+    {
+      "title": "Master's in Big Data & Cloud Computing",
+      "school": "ENSET Mohammadia",
+      "year": "2022–2024"
+    },
+    {
+      "title": "Bachelor's in Mathematics & Statistics",
+      "school": "Faculty of Sciences Semlalia, Marrakech",
+      "year": "2014–2020"
+    }
+  ],
+  "certs": [
+    {
+      "name": "AWS Fundamentals",
+      "issuer": "Amazon Web Services",
+      "year": "2024",
+      "badge": "AWS"
+    },
+    {
+      "name": "Kubernetes",
+      "issuer": "KodeKloud",
+      "year": "2023",
+      "badge": "K8s"
+    },
+    {
+      "name": "Kubernetes & OpenShift",
+      "issuer": "IBM",
+      "year": "2023",
+      "badge": "IBM"
+    },
+    {
+      "name": "Docker Essentials",
+      "issuer": "IBM",
+      "year": "2023",
+      "badge": "Docker"
+    },
+    {
+      "name": "NDG Linux Unhatched",
+      "issuer": "Cisco",
+      "year": "2022",
+      "badge": "Linux"
+    },
+    {
+      "name": "Networking Basics",
+      "issuer": "Cisco",
+      "year": "2022",
+      "badge": "Cisco"
+    }
+  ]
+}

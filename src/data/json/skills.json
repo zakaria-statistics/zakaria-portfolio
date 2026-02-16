@@ -1,0 +1,32 @@
+[
+  {
+    "name": "cloud/",
+    "color": "text-blue",
+    "items": ["AWS", "Azure", "Oracle Cloud", "Terraform", "Vagrant"]
+  },
+  {
+    "name": "containers/",
+    "color": "text-green",
+    "items": ["Docker", "Kubernetes", "Helm", "ArgoCD", "Docker Swarm"]
+  },
+  {
+    "name": "ci-cd/",
+    "color": "text-yellow",
+    "items": ["GitLab CI/CD", "GitHub Actions", "Jenkins", "Ansible"]
+  },
+  {
+    "name": "monitoring/",
+    "color": "text-orange",
+    "items": ["Prometheus", "Grafana", "Loki", "VMware ESXi"]
+  },
+  {
+    "name": "scripting/",
+    "color": "text-purple",
+    "items": ["Bash", "Python", "PowerShell", "TypeScript", "Java"]
+  },
+  {
+    "name": "ai-llmops/",
+    "color": "text-cyan",
+    "items": ["Ollama", "LangChain", "RAG", "Prompt Engineering"]
+  }
+]
