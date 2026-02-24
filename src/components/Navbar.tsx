@@ -3,7 +3,11 @@
 import { useState, useEffect } from "react";
 import { navLinks } from "@/data/loaders";
 
-export default function Navbar() {
+interface NavbarProps {
+  onSearchOpen: () => void;
+}
+
+export default function Navbar({ onSearchOpen }: NavbarProps) {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
@@ -27,7 +31,7 @@ export default function Navbar() {
         </a>
 
         {/* Desktop links */}
-        <div className="hidden md:flex gap-5">
+        <div className="hidden md:flex items-center gap-5">
           {navLinks.map((l) => (
             <a
               key={l.href}
@@ -37,7 +41,24 @@ export default function Navbar() {
               {l.label}
             </a>
           ))}
+          <button
+            onClick={onSearchOpen}
+            className="flex items-center gap-1.5 text-text-dim text-xs hover:text-green transition-colors border border-border hover:border-green/40 rounded px-2 py-1"
+            aria-label="Search"
+          >
+            <span>~/search</span>
+            <span className="text-[10px] opacity-50">ctrl+k</span>
+          </button>
         </div>
+
+        {/* Mobile search */}
+        <button
+          onClick={onSearchOpen}
+          className="md:hidden text-text-dim hover:text-green text-xs border border-border hover:border-green/40 rounded px-2 py-1"
+          aria-label="Search"
+        >
+          ~/search
+        </button>
 
         {/* Mobile hamburger */}
         <button

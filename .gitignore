@@ -16,10 +16,14 @@
 npm-debug.log*
 
 # env files
+.env
 .env*.local
 
 # vercel
 .vercel
+
+# local MCP config (may contain secrets)
+.mcp.json
 
 # typescript
 *.tsbuildinfo
